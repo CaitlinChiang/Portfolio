@@ -1,0 +1,26 @@
+#skills {
+  text-align: center;
+  padding-left: 15%;
+  min-height: 100vh;
+  font-family: "Kanit", sans-serif;
+}
+
+.skills-intro {
+  color: #fff;
+  font-size: 30px;
+}
+
+.skills-grid-container {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  color: var(--purple-bright);
+}
+
+.skills-grid-item {
+  text-align: left;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

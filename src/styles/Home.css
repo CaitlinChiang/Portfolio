@@ -12,8 +12,11 @@
 }
 
 .intro-name {
-  color: var(--purple-bright);
   margin-top: -100px;
+}
+
+.intro-caitlin {
+  color: var(--purple-bright);
 }
 
 .intro-subtitle-first {

@@ -42,7 +42,26 @@ class Skills extends Component {
 
     return (
       <div id="skills">
-        
+        <FadeInSection>
+          <div className="skills-intro">
+            <p>Here's a list of technologies that I've worked with:</p>
+          </div>
+          <div className="skills-grid-container">
+            <div class="skills-grid-item">
+              <p>FRONTEND</p>
+              {}
+            </div>
+            <div class="skills-grid-item">
+              <p>BACKEND</p>
+            </div>
+            <div class="skills-grid-item">
+              <p>DATABASES</p>
+            </div>  
+            <div class="skills-grid-item">
+              <p>OTHERS</p>
+            </div>
+          </div>
+        </FadeInSection>
       </div>
     )
   }

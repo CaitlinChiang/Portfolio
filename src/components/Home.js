@@ -9,7 +9,7 @@ class Home extends Component {
         <FadeInSection>
           <div className="intro-welcome">
             <p>hey there,</p>
-            <p className="intro-name">it's caitlin.</p>
+            <p className="intro-name">my name's <span className="intro-caitlin">caitlin</span>.</p>
           </div>
           <div className="intro-subtitle-first">Software engineer, fully operated by passion and drive.</div>
           <div className="intro-subtitle-second">Currently a student in Singapore University of Technology and Design (SUTD), pursuing all things Artificial Intelligence.</div>
