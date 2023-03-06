@@ -1,0 +1,13 @@
+:root {
+  --dark-navy: #020c1b;
+  --navy: #091424;
+  --light-navy: #112240;
+  --lightest-navy: #3461A2;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --slate: #CFE9FF;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --purple-bright: #AD57FF;
+  --green-tint: rgba(100, 255, 218, 0.1);
+}
