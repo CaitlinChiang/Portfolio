@@ -35,11 +35,6 @@ class Skills extends Component {
       'Cypress.io'
     ]
 
-    const currently_learning = [
-      'Flutter',
-      'Heroku'
-    ]
-
     return (
       <div id="skills">
         <FadeInSection>
@@ -49,16 +44,27 @@ class Skills extends Component {
           <div className="skills-grid-container">
             <div class="skills-grid-item">
               <p>FRONTEND</p>
-              {}
+              {frontend_stack.map((e) => {
+                return <p className="skill-items">{'> ' + e}</p>
+              })}
             </div>
             <div class="skills-grid-item">
               <p>BACKEND</p>
+              {backend_stack.map((e) => {
+                return <p className="skill-items">{'> ' + e}</p>
+              })}
             </div>
             <div class="skills-grid-item">
               <p>DATABASES</p>
+              {database_stack.map((e) => {
+                return <p className="skill-items">{'> ' + e}</p>
+              })}
             </div>  
             <div class="skills-grid-item">
               <p>OTHERS</p>
+              {other_services.map((e) => {
+                return <p className="skill-items">{'> ' + e}</p>
+              })}
             </div>
           </div>
         </FadeInSection>

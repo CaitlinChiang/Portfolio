@@ -1,6 +1,6 @@
 #skills {
   text-align: center;
-  padding-left: 15%;
+  padding-left: 10%;
   min-height: 100vh;
   font-family: "Kanit", sans-serif;
 }
@@ -11,16 +11,25 @@
 }
 
 .skills-grid-container {
-  text-align: left;
+  margin-left: 15%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px;
   color: var(--purple-bright);
 }
 
 .skills-grid-item {
-  text-align: left;
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+.skills-grid-item p {
+  text-align: left;
+}
+
+.skill-items {
+  color: var(--lightest-navy);
+  font-size: 22px;
+  margin-top: -5px;
 }
