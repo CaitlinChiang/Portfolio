@@ -1,6 +1,6 @@
 #skills {
   text-align: center;
-  padding-left: 10%;
+  padding-left: 5%;
   min-height: 100vh;
   font-family: "Kanit", sans-serif;
 }
@@ -11,7 +11,7 @@
 }
 
 .skills-grid-container {
-  margin-left: 15%;
+  margin-left: 13%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
