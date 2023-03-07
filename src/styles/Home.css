@@ -1,6 +1,6 @@
 #intro {
   text-align: center;
-  padding-top: 8%;
+  padding-top: 2%;
   padding-left: 5%;
   min-height: 100vh;
   font-family: "Kanit", sans-serif;
@@ -11,12 +11,17 @@
   color: #fff;
 }
 
-.intro-name {
+.intro-tagline {
   margin-top: -100px;
 }
 
-.intro-caitlin {
+.intro-emphasize {
   color: var(--purple-bright);
+}
+
+.intro-adjective {
+  color: var(--lightest-navy);
+  text-decoration: underline;
 }
 
 .intro-subtitle-first {
