@@ -1,8 +1,29 @@
 import React, { Component } from 'react'
 import FadeInSection from './FadeInSection'
-import '../styles/Skills.css'
+import '../styles/Experiences.css'
 
 class Experiences extends Component {
+  showExperience = (event, idx) => {
+    var i, tab_content, tablinks
+    
+    tab_content = document.getElementsByClassName("tab-content")
+    for (i = 0; i < tab_content.length; i++) {
+      tab_content[i].style.display = "none"
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(idx).style.display = "block";
+    event.currentTarget.className += " active";
+  }
+
+  componentDidMount() {
+    document.getElementById(3).style.display = "block";
+  }
+
   render() {
     const experiences = [
       {
@@ -55,6 +76,29 @@ class Experiences extends Component {
     return (
       <div id="experiences">
         <FadeInSection>
+          <div class="tabs">
+            <button class="tablinks active" onClick={event => this.showExperience(event, 3)}>03</button>
+            <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
+            <button class="tablinks" onClick={event => this.showExperience(event, 1)}>01</button>
+            <button class="tablinks" onClick={event => this.showExperience(event, 0)}>00</button>
+          </div>
+
+          {experiences.map((experiences, idx) => {
+            const { company, position, timeline, details, description } = experiences
+
+            return (
+              <div id={idx} class="tab-content">
+                <h3>{position + '@ ' + company}</h3>
+                <h5>{timeline}</h5>
+                <h6>{details}</h6>
+                <div>
+                  {description.map((e) => {
+                    return <p>{'<> ' + e}</p>
+                  })}
+                </div>
+              </div>
+            )
+          })}
 
         </FadeInSection>
       </div>
