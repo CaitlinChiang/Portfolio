@@ -27,10 +27,9 @@ class Experiences extends Component {
   render() {
     const experiences = [
       {
-        company: 'The Rolls Kitchen, The Busy Bee, Soren Apparel',
         position: 'Freelance Software Engineer',
         timeline: 'Mar 2020 - Jun 2021',
-        details: 'Designed and built e-commerce websites for 3 businesses',
+        details: 'Designed and built e-commerce websites for The Rolls Kitchen, The Busy Bee, and Soren Apparel',
         description: [
           'Deployed full e-commerce systems for purchasing of products (customers) and management of store inventory + orders (administrators)',
           'Collaborated with the CEOs to design the user interface of the website',
@@ -75,33 +74,34 @@ class Experiences extends Component {
 
     return (
       <div id="experiences">
-        <FadeInSection>
-          <div class="tabs">
-            <button class="tablinks active" onClick={event => this.showExperience(event, 3)}>03</button>
-            <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
-            <button class="tablinks" onClick={event => this.showExperience(event, 1)}>01</button>
-            <button class="tablinks" onClick={event => this.showExperience(event, 0)}>00</button>
-          </div>
+        <div class="tabs">
+          <button class="tablinks active" onClick={event => this.showExperience(event, 3)}>03</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 1)}>01</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 0)}>00</button>
+        </div>
 
-          {experiences.map((experiences, idx) => {
-            const { company, position, timeline, details, description } = experiences
+        {experiences.map((experiences, idx) => {
+          const { company, position, timeline, details, description } = experiences
 
-            return (
-              <div id={idx} class="tab-content">
-                <h3>{position + '@ ' + company}</h3>
-                <h5>{timeline}</h5>
-                <h6>{details}</h6>
-                <div>
-                  {description.map((e) => {
-                    return <p>{'<> ' + e}</p>
-                  })}
-                </div>
+          return (
+            <div id={idx} class="tab-content">
+              <h3>{position}{company ? ' @' : ''}<span className="highlight">{company}</span></h3>
+              <h4>{details}</h4>
+              <h4 className="timeline">{timeline}</h4>
+              <div>
+                {description.map((e, i) => {
+                  return (
+                    <FadeInSection delay={`${i + 1}00ms`}>
+                      <p><span className="highlight">{'<> '}</span>{e}</p>
+                    </FadeInSection>
+                  )
+                })}
               </div>
-            )
-          })}
-
-        </FadeInSection>
-      </div>
+            </div>
+          )
+        })}
+    </div>
     )
   }
 }
