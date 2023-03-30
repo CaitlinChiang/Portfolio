@@ -67,7 +67,7 @@ class Experiences extends Component {
         description: [
           'Collaborate with the computer science faculty in designing and building an internal university software platform that allows students across all degree programmes to effectively use Chat-GPT free of charge',
           'Deploy features that allow students to each have a user account that changes the platform experience based from their needs',
-          'Deploy features that allow administrators to analyze all inputs and behaviors of each student via data visualization, supplementing this by creating and sending surveys within the application'
+          'Deploy features that allow administrators to analyze all inputs and behaviors of each student via data visualization, supplementing this by creating, updating, and sending various surveys within the application'
         ]
       }
     ]
