@@ -12,8 +12,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "react-typist": "^2.0.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install --force && npm start",
+    "install:peer-deps": "npm install --legacy-peer-deps"
   },
   "scripts": {
     "start": "react-scripts start",
