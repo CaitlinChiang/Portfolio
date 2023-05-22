@@ -13,7 +13,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "install:peer-deps": "npm install --legacy-peer-deps"
+    "install-peer-deps": "npm install --legacy-peer-deps"
   },
   "scripts": {
     "start": "react-scripts start",
