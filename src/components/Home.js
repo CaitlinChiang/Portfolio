@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div id="intro">
         <div className='intro-left'>
-          <div></div>
+          <img class="curved-image" src={"http://localhost:3000/images/profile.jpg"} alt="Profile Image" />
         </div>
         <div className="intro-right">
           <div className="intro-name">

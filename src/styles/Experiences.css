@@ -3,7 +3,7 @@
   padding-left: 10%;
   padding-right: 5%;
   min-height: 100vh;
-  font-family: "Kanit", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .experiences-intro {
@@ -15,7 +15,7 @@
 }
 
 .experiences-word {
-  font-size: 50px;
+  font-size: 45px;
   color: var(--lightest-navy);
 }
 
@@ -46,7 +46,7 @@
   padding: 12px 16px;
   transition: 0.3s;
   font-size: 22px;
-  font-family: "Kanit", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .tabs button:hover {
@@ -72,6 +72,7 @@
 .tab-company {
   font-size: 21px;
   color: white;
+  margin-top: 30px;
 }
 
 .tab-details {
@@ -93,7 +94,7 @@
 }
 
 .tab-content div > p {
-  margin-top: -10px;
+  line-height: 30px;
 }
 
 .highlight {

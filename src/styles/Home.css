@@ -4,10 +4,20 @@
   padding-top: 5%;
   padding-right: 5%;
   min-height: 100vh;
-  font-family: "Kanit", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 20px;
+}
+
+.curved-image {
+  border-radius: 10%;
+  height: 300px;
+  position: relative;
+}
+
+.intro-left {
+  padding-top: 20%;
 }
 
 .intro-name {
@@ -41,7 +51,7 @@
   background-color: var(--dark-navy);
   border: 1px solid white;
   border: 1px solid white;
-  font-family: "Kanit", sans-serif;
+  font-family: "Nunito", sans-serif;
   border-radius: 4px;
   margin-right: 50px;
 }
