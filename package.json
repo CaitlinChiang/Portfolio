@@ -13,13 +13,13 @@
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4",
-    "install-peer-deps": "npm install --legacy-peer-deps --tag legacy-peer-deps"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "install-peer-deps": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
