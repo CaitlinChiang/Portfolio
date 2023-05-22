@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import FadeInSection from './FadeInSection'
 import '../styles/Skills.css'
 
 class Skills extends Component {
@@ -17,7 +16,8 @@ class Skills extends Component {
       'Node.js',
       'Express.js',
       'Python 3',
-      'Flask'
+      'Flask',
+      'Django'
     ]
 
     const database_stack = [
@@ -26,48 +26,62 @@ class Skills extends Component {
       'Firebase'
     ]
 
-    const other_services = [
-      'Apollo GraphQL',
-      'Arduino',
-      'Amazon Web Services',
+    const services_stack = [
+      'AWS',
+      'Microsoft Azure',
       'Cloudinary',
       'Netlify',
+    ]
+
+    const others_stack = [
+      'Apollo GraphQL',
+      'Arduino C++',
+      'Git',
       'Cypress.io'
     ]
 
     return (
       <div id="skills">
-        <FadeInSection>
-          <div className="skills-intro">
-            <p>Here's a list of technologies that I've worked with:</p>
+        <div className="skills-intro">
+          <div>
+            <p className="tech-stack">{'{ TECH-STACK }'}</p>
           </div>
-          <div className="skills-grid-container">
-            <div class="skills-grid-item">
-              <p>FRONTEND</p>
-              {frontend_stack.map((e) => {
-                return <p className="skill-items">{'> ' + e}</p>
-              })}
-            </div>
-            <div class="skills-grid-item">
-              <p>BACKEND</p>
-              {backend_stack.map((e) => {
-                return <p className="skill-items">{'> ' + e}</p>
-              })}
-            </div>
-            <div class="skills-grid-item">
-              <p>DATABASES</p>
-              {database_stack.map((e) => {
-                return <p className="skill-items">{'> ' + e}</p>
-              })}
-            </div>  
-            <div class="skills-grid-item">
-              <p>OTHERS</p>
-              {other_services.map((e) => {
-                return <p className="skill-items">{'> ' + e}</p>
-              })}
-            </div>
+          <div className="skills-description">
+            <p>As a self-taught programmer, I enjoy learning new technologies whether they have just become the new hot thing or have been around for a while. I like to ensure that my skill set is diverse in order to cater towards different kinds of projects.</p>
           </div>
-        </FadeInSection>
+        </div>
+        <div className="skills-grid-container">
+          <div class="skills-grid-item">
+            <p>Frontend</p>
+            {frontend_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+          <div class="skills-grid-item">
+            <p>Backend</p>
+            {backend_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+          <div class="skills-grid-item">
+            <p>Databases</p>
+            {database_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>  
+          <div class="skills-grid-item">
+            <p>Services</p>
+            {services_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+          <div class="skills-grid-item">
+            <p>Others</p>
+            {others_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+        </div>
       </div>
     )
   }

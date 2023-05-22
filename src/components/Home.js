@@ -1,24 +1,24 @@
 import React, { Component } from 'react'
-import FadeInSection from './FadeInSection'
 import '../styles/Home.css'
 
 class Home extends Component {
   render() {
     return (
       <div id="intro">
-        <FadeInSection>
-          <div className="intro-welcome">
-            <p>Hi,</p>
-            <p className="intro-tagline">my name's <span className="intro-emphasize">Caitlin</span>.</p>
+        <div className='intro-left'>
+          <div></div>
+        </div>
+        <div className="intro-right">
+          <div className="intro-name">
+            <p className="intro-emphasize">I'm Caitlin Chiang.</p>
+            <p className="intro-description">Full-Stack Developer</p>
           </div>
 
-          <div className="intro-subtitle-first">I'm <span className="intro-adjective">obsessed</span> with building software.</div>
-          <div className="intro-subtitle-second">Currently a student in Singapore University of Technology and Design (SUTD), pursuing all things Artificial Intelligence.</div>
-          <button className="intro-contact" disabled>✉️ chiangcaitlin2003@gmail.com</button>
+          <div className="intro-caption"><span className="emphasize-description">I'm obsessed with building software.</span> Currently a student in the Singapore University of Technology and Design, I'm pursuing a degree in computer science mixed in with design and artificial intelligence. I am passionate about automating manual systems and crafting web-products that serve immense value to the community.</div>
           <button className="intro-contact intro-contact-resume">
-            <a href="http://localhost:3000/assets/Resume.pdf" download="caitlin-resume">📩 Download Resume</a>
+            <a href="http://localhost:3000/assets/Resume.pdf" download="caitlin-resume">Download CV</a>
           </button>
-        </FadeInSection>
+        </div>
       </div>
     )
   }

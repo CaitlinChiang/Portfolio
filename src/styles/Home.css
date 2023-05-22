@@ -1,60 +1,63 @@
 #intro {
-  text-align: center;
-  padding-left: 5%;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 5%;
   min-height: 100vh;
   font-family: "Kanit", sans-serif;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
 }
 
-.intro-welcome {
-  font-size: 100px;
+.intro-name {
+  font-size: 55px;
   color: #fff;
-}
-
-.intro-tagline {
-  margin-top: -100px;
 }
 
 .intro-emphasize {
   color: var(--purple-bright);
+  margin-bottom: -70px;
 }
 
-.intro-adjective {
+.intro-caption {
+  color: var(--slate);
+  font-size: 18px;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  width: 90%;
+  line-height: 35px;
+}
+
+.emphasize-description {
   color: var(--lightest-navy);
   text-decoration: underline;
 }
 
-.intro-subtitle-first {
-  color: var(--slate);
-  font-weight: 300;
-  font-size: 48px;
-}
-
-.intro-subtitle-second {
-  color: var(--slate);
-  font-size: 22px;
-  margin-top: 20px;
-  padding-bottom: 50px;
-}
-
 .intro-contact {
-  font-size: 22px;
+  font-size: 20px;
   padding: 10px 30px;
   margin-top: 20px;
-  background-color: var(--light-navy);
-  color: #fff;
-  border: 1px solid var(--purple-bright);
+  background-color: var(--dark-navy);
+  border: 1px solid white;
+  border: 1px solid white;
   font-family: "Kanit", sans-serif;
   border-radius: 4px;
   margin-right: 50px;
 }
 
 .intro-contact-resume:hover {
-  background-color: var(--lightest-navy);
+  background-color: white;
+  color: black;
+}
+
+.intro-contact-resume:hover > a {
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 b {
@@ -69,10 +72,6 @@ b {
     align-items: center;
   }
 
-  .intro-welcome {
-    font-size: 46px;
-  }
-
   .intro-name {
     font-size: 46px;
   }
@@ -81,13 +80,6 @@ b {
     margin: 0;
     font-size: 28px;
     text-align: center;
-  }
-
-  .intro-subtitle-second {
-    font-size: 18px;
-    text-align: center;
-    max-width: unset;
-    padding-bottom: 40px;
   }
 
   .intro-contact {

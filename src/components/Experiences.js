@@ -21,7 +21,7 @@ class Experiences extends Component {
   }
 
   componentDidMount() {
-    document.getElementById(3).style.display = "block";
+    document.getElementById(4).style.display = "block";
   }
 
   render() {
@@ -40,10 +40,20 @@ class Experiences extends Component {
         company: 'Dragonpay',
         position: 'Software Engineer',
         timeline: 'Jul 2021',
-        details: 'Dragonpay is the only payment gateway in the Philippines that allows non-credit card holders to pay via bank',
+        details: 'Dragonpay is the only payment gateway in the Philippines that allows non-credit card holders to pay via banking',
         description: [
-          'Deployed an internal application for the online-screening of the employees during the pandemic',
+          'Deployed an internal application for employee health tracking',
           'Deployed an internal business expense tracking tool that automated the workflow of the finance team'
+        ]
+      },
+      {
+        company: 'Philippine Red Cross',
+        position: 'Volunteer Software Engineer',
+        timeline: 'Jul 2021 - Oct 2021',
+        details: '',
+        description: [
+          'Coded features for the application that automated the workflow of the healthcare professionals',
+          'Developed module-level testing scripts for the software platform to ensure seamless performance'
         ]
       },
       {
@@ -65,7 +75,7 @@ class Experiences extends Component {
         timeline: 'Jan 2023 - PRESENT',
         details: '',
         description: [
-          'Collaborate with the computer science faculty in designing and building an internal university software platform that allows students across all degree programmes to effectively use Chat-GPT free of charge',
+          'Collaborate with the computer science faculty in designing and building an internal university software platform that allows students to enhance learning via Artificial Intelligence',
           'Deploy features that allow students to each have a user account that changes the platform experience based from their needs',
           'Deploy features that allow administrators to analyze all inputs and behaviors of each student via data visualization, supplementing this by creating, updating, and sending various surveys within the application'
         ]
@@ -74,8 +84,20 @@ class Experiences extends Component {
 
     return (
       <div id="experiences">
+        <div className="experiences-intro">
+          <div>
+            <p className="experiences-word">{'{ EXPERIENCES }'}</p>
+          </div>
+          <div className="experiences-description">
+            <p>I've acquired a range of experiences from being a web-freelancer, to a volunteer, to a full-time software engineer lead. I did thoroughly enjoy all these opportunities and will be forever grateful for them, but I am also excited for what the future holds.</p>
+          </div>
+        </div>
+
+        <div className="divider"/>
+
         <div class="tabs">
-          <button class="tablinks active" onClick={event => this.showExperience(event, 3)}>03</button>
+          <button class="tablinks active" onClick={event => this.showExperience(event, 4)}>04</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 3)}>03</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 1)}>01</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 0)}>00</button>
@@ -86,9 +108,9 @@ class Experiences extends Component {
 
           return (
             <div id={idx} class="tab-content">
-              <h3>{position}{company ? ' @' : ''}<span className="highlight">{company}</span></h3>
-              <h4>{details}</h4>
-              <h4 className="timeline">{timeline}</h4>
+              <p className="tab-company">{position}{company ? ' @' : ''}<span className="highlight">{company}</span></p>
+              <p className="tab-details">{details}</p>
+              <p className="timeline">{timeline}</p>
               <div>
                 {description.map((e, i) => {
                   return (
@@ -101,6 +123,8 @@ class Experiences extends Component {
             </div>
           )
         })}
+
+        <div className="divider"/>
     </div>
     )
   }

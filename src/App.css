@@ -25,7 +25,7 @@ html {
 }
 
 .App {
-  background-color: var(--navy);
+  background-color: var(--dark-navy);
   display: flex;
   flex-direction: row;
 }

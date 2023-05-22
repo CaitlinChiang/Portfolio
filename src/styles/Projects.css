@@ -1,22 +1,32 @@
 #projects {
-  text-align: center;
-  padding-left: 25%;
-  padding-right: 2%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 5%;
   padding-bottom: 5%;
-  min-height: 80vh;
+  min-height: 100vh;
   font-family: "Kanit", sans-serif;
 }
 
 .projects-intro {
   color: #fff;
-  font-size: 30px;
-  margin-top: -20px;
-  max-width: 870px;
+  font-size: 22px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.projects-word {
+  font-size: 50px;
+  color: var(--lightest-navy);
+}
+
+.projects-description {
+  line-height: 35px;
+  margin-top: 10px;
 }
 
 .project-gallery {
   display: grid;
-  grid-template-columns: 290px 290px 290px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 10px;
   padding: 0;
   margin: 50px 0 0 0;
@@ -29,6 +39,7 @@
   padding: 20px;
   text-align: left;
   position: relative;
+  border: 1px solid white;
 }
 
 .icon-project {
@@ -39,7 +50,7 @@
 }
 
 .project-title {
-  color: var(--slate);
+  color: white;
   font-size: 23px;
 }
 
