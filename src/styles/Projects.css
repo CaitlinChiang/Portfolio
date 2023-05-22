@@ -76,3 +76,20 @@
   bottom: 0;
   padding-right: 20px;
 }
+
+@media only screen and (max-width: 780px) {
+  .projects-intro {
+    display: block;
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .projects-word {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .project-gallery {
+    gap: 20px;
+  }
+}

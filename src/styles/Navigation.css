@@ -87,20 +87,10 @@ header {
 		position: absolute; 
 	}
 
-	.logo { 
-		margin: 0px 0px 0px 30px;
-	}
-
-	.cart {
-		top: -5px;
-		right: -30px;
-		position: absolute;
-	}
-
 	.mobileMenuContainer {
-		position: absolute;
+		position: fixed;
 		top: 12px;
-		right: 120px;
+		right: 80px;
 		z-index: 1;
 	}
 

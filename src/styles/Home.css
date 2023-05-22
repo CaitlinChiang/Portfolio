@@ -74,27 +74,32 @@ b {
   font-size: 17px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   #intro {
-    min-height: unset;
-    padding-left: unset;
-    margin: 0;
-    align-items: center;
+    padding: 0;
+    display: block;
+  }
+
+  .curved-image {
+    margin-top: -60px;
   }
 
   .intro-name {
-    font-size: 46px;
+    font-size: 35px;
   }
 
-  .intro-subtitle-first {
-    margin: 0;
-    font-size: 28px;
-    text-align: center;
+  .intro-emphasize {
+    color: var(--purple-bright);
+    margin-bottom: -40px;
+  }
+
+  .intro-caption {
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100%;
   }
 
   .intro-contact {
-    font-size: 16px;
-    align-self: center;
-    margin-left: 30%;
+    width: 100%;
   }
 }

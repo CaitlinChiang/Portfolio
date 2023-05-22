@@ -66,7 +66,6 @@
   padding-bottom: 16px;
   font-size: 18px;
   color: var(--light-slate);
-  text-align: justify;
   padding-left: 18px;
 }
 
@@ -100,4 +99,34 @@
 
 .highlight {
   color: var(--purple-bright);
+}
+
+@media only screen and (max-width: 780px) {
+  .experiences-intro {
+    display: block;
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .experiences-word {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .tabs button {
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .tab-company {
+    font-size: 20px;
+  }
+
+  .tab-content {
+    font-size: 17px;
+  }
+
+  .tab-details {
+    font-size: 17px;
+  }
 }
