@@ -39,7 +39,7 @@
   padding: 20px;
   text-align: left;
   position: relative;
-  border: 1px solid white;
+  border: 2px solid var(--light-slate);
 }
 
 .icon-project {
