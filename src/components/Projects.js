@@ -101,7 +101,7 @@ class Projects extends Component {
                 <div className="project-box">
                   <div className="icon-project">
                     <a target="_blank" href={project?.link} rel="noreferrer">
-                      <i class="fas fa-search" />
+                      <span className="arrow">{'➜'}</span>
                     </a>
                   </div>
                   <div className="project-title">{project?.title}</div>
