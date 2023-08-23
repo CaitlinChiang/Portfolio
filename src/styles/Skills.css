@@ -27,7 +27,7 @@
 
 .skills-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   padding: 10px;
   gap: 20px;
   color: var(--purple-bright);

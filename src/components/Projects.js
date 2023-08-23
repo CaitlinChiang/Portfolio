@@ -5,6 +5,12 @@ class Projects extends Component {
   render() {
     const projects = [
       { 
+        title: 'PeakQuest', 
+        about: 'A mobile application that helps users decide hiking trails to embark and trains them to the appropriate fitness level.', 
+        link: 'https://github.com/CaitlinChiang/Hiking-Software', 
+        technologies: 'React Native'
+      },
+      { 
         title: 'The Decolonization Project', 
         about: 'An online repository where indigenous tribes are in control of their own online data and information that is being published.', 
         link: 'https://github.com/CaitlinChiang/The-Decolonization', 
@@ -71,7 +77,7 @@ class Projects extends Component {
         technologies: 'React.js, Firebase, Netlify'
       },
       { 
-        title: 'The Busy Bee', 
+        title: 'The Rolls Kitchen', 
         about: 'A full e-commerce system for a business that focuses on selling bakery goods.', 
         link: 'https://github.com/CaitlinChiang/The-Rolls-Kitchen', 
         technologies: 'React.js, Firebase, Netlify'

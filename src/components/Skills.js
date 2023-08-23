@@ -7,35 +7,50 @@ class Skills extends Component {
       'Javascript ES6+',
       'React.js',
       'Typescript',
-      'HTML',
+      'Angular.js',
+      'Vue.js',
+      'HTML'
+    ]
+
+    const design_stack = [
+      'CSS',
       'Material UI',
-      'CSS'
+      'Chakra UI'
     ]
 
     const backend_stack = [
       'Node.js',
       'Express.js',
+      'Next.js',
       'Python 3',
       'Flask',
-      'Django'
+      'Django',
+      'Ruby on Rails'
+    ]
+
+    const mobile_stack = [
+      'React Native'
     ]
 
     const database_stack = [
       'MongoDB',
-      'MySQL',
+      'MySQL 8.0',
+      'PostgreSQL',
       'Firebase'
     ]
 
     const services_stack = [
-      'AWS',
+      'Amazon Web Services',
+      'Google Cloud Platform',
       'Microsoft Azure',
       'Cloudinary',
-      'Netlify',
+      'Netlify'
     ]
 
     const others_stack = [
       'Apollo GraphQL',
-      'Arduino C++',
+      'Arduino + Arduino C++',
+      'Rapberry Pi 3',
       'Git',
       'Cypress.io'
     ]
@@ -58,8 +73,20 @@ class Skills extends Component {
             })}
           </div>
           <div class="skills-grid-item">
+            <p>Design</p>
+            {design_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+          <div class="skills-grid-item">
             <p>Backend</p>
             {backend_stack.map((e) => {
+              return <p className="skill-items">{'> ' + e}</p>
+            })}
+          </div>
+          <div class="skills-grid-item">
+            <p>Mobile</p>
+            {mobile_stack.map((e) => {
               return <p className="skill-items">{'> ' + e}</p>
             })}
           </div>
