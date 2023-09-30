@@ -21,7 +21,7 @@ class Experiences extends Component {
   }
 
   componentDidMount() {
-    document.getElementById(4).style.display = "block";
+    document.getElementById(5).style.display = "block";
   }
 
   render() {
@@ -79,6 +79,15 @@ class Experiences extends Component {
           'Deploy features that allow students to each have a user account that changes the platform experience based from their needs',
           'Deploy features that allow administrators to analyze all inputs and behaviors of each student via data visualization, supplementing this by creating, updating, and sending various surveys within the application'
         ]
+      },
+      {
+        company: 'Jublia',
+        position: 'Frontend Software Engineer',
+        timeline: 'August 2023 - PRESENT',
+        details: 'Singapore startup that specializes in digital management of various events',
+        description: [
+          'Refactor legacy code files and convert them to Vue.js dynamic components'
+        ]
       }
     ]
 
@@ -89,14 +98,15 @@ class Experiences extends Component {
             <p className="experiences-word">{'{ EXPERIENCES }'}</p>
           </div>
           <div className="experiences-description">
-            <p>I've acquired a range of experiences from being a web-freelancer, to a volunteer, to a full-time software engineer lead. I did thoroughly enjoy all these opportunities and will be forever grateful for them, but I am also excited for what the future holds.</p>
+            <p>I've acquired a range of experiences from being a web-freelancer, to a volunteer, to a full-time software engineer lead.</p>
           </div>
         </div>
 
         <div className="divider"/>
 
         <div class="tabs">
-          <button class="tablinks active" onClick={event => this.showExperience(event, 4)}>04</button>
+          <button class="tablinks active" onClick={event => this.showExperience(event, 5)}>05</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 4)}>04</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 3)}>03</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 1)}>01</button>

@@ -7,7 +7,6 @@ class Skills extends Component {
       'Javascript ES6+',
       'React.js',
       'Typescript',
-      'Angular.js',
       'Vue.js',
       'HTML'
     ]
@@ -49,7 +48,7 @@ class Skills extends Component {
 
     const others_stack = [
       'Apollo GraphQL',
-      'Arduino + Arduino C++',
+      'Arduino & Arduino C++',
       'Rapberry Pi 3',
       'Git',
       'Cypress.io'
