@@ -21,7 +21,7 @@ class Experiences extends Component {
   }
 
   componentDidMount() {
-    document.getElementById(5).style.display = "block";
+    document.getElementById(7).style.display = "block";
   }
 
   render() {
@@ -72,7 +72,7 @@ class Experiences extends Component {
       {
         company: 'Singapore University of Technology and Design',
         position: 'Software Engineer',
-        timeline: 'Jan 2023 - PRESENT',
+        timeline: 'Jan 2023 - Nov 2023',
         details: '',
         description: [
           'Collaborate with the computer science faculty in designing and building an internal university software platform that allows students to enhance learning via Artificial Intelligence',
@@ -81,12 +81,35 @@ class Experiences extends Component {
         ]
       },
       {
+        company: 'Procter & Gamble (P&G)',
+        position: 'Software Engineer and Technical Lead',
+        timeline: 'May 2023 - Aug 2023',
+        details: 'Data Analysis Dashboard',
+        description: [
+          'Lead a team of 6 in collaborating with P&G (university partner) in building a dashboard that allows researchers of the company to visualize data in different formats such as charts and timelines to make better decisions',
+          'Researchers have the ability to upload CSVs, and the application automatically extracts all the data and sorts them inside a PostgreSQL database.',
+          'Researchers are able to select various categories of research and compare the data against each other via visual charts.',
+          'The application incorporates artificial intelligence in determining the improvement / damage that the products cause, by analyzing the hues and emotions of the photos submitted by the consumers via survey.'
+        ]
+      },
+      {
         company: 'Jublia',
         position: 'Frontend Software Engineer',
-        timeline: 'August 2023 - PRESENT',
+        timeline: 'August 2023 - December 2023',
         details: 'Singapore startup that specializes in digital management of various events',
         description: [
-          'Refactor legacy code files and convert them to Vue.js dynamic components'
+          '[Frontend] Refactor legacy code files and convert them to Vue.js dynamic components',
+          '[UIUX] Redesign and conceptualize a new homepage dashboard for the software application',
+          '[Backend] Write scripts to automate database storage checks',
+        ]
+      },
+      {
+        company: 'Development Bank of Singapore Limited (DBS)',
+        position: 'Software Engineer and Team Lead',
+        timeline: 'Jan 2024 - May 2024',
+        details: 'Queue Simulation Dashboard',
+        description: [
+          'Lead a team of 5 in collaborating with DBS in building a simulation dashboard. This tool enables bank managers to simulate various queue management scenarios based on selected parameters.'
         ]
       }
     ]
@@ -105,7 +128,9 @@ class Experiences extends Component {
         <div className="divider"/>
 
         <div class="tabs">
-          <button class="tablinks active" onClick={event => this.showExperience(event, 5)}>05</button>
+          <button class="tablinks active" onClick={event => this.showExperience(event, 7)}>07</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 6)}>06</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 5)}>05</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 4)}>04</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 3)}>03</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 2)}>02</button>
