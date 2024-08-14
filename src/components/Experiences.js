@@ -84,7 +84,7 @@ class Experiences extends Component {
         company: 'Procter & Gamble (P&G)',
         position: 'Software Engineer and Technical Lead',
         timeline: 'May 2023 - Aug 2023',
-        details: 'Data Analysis Dashboard',
+        details: 'Affiliated with SUTD, Data Analysis Dashboard',
         description: [
           'Lead a team of 6 in collaborating with P&G (university partner) in building a dashboard that allows researchers of the company to visualize data in different formats such as charts and timelines to make better decisions',
           'Researchers have the ability to upload CSVs, and the application automatically extracts all the data and sorts them inside a PostgreSQL database.',
@@ -107,7 +107,7 @@ class Experiences extends Component {
         company: 'Development Bank of Singapore Limited (DBS)',
         position: 'Software Engineer and Team Lead',
         timeline: 'Jan 2024 - May 2024',
-        details: 'Queue Simulation Dashboard',
+        details: 'Affiliated with SUTD, Queue Simulation Dashboard',
         description: [
           'Lead a team of 5 in collaborating with DBS in building a simulation dashboard. This tool enables bank managers to simulate various queue management scenarios based on selected parameters.'
         ]
