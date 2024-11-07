@@ -12,8 +12,7 @@ class Navigation extends Component {
             <li><a href="/#intro">About</a></li>
             <li><a href="/#skills">Skills</a></li>
             <li><a href="/#experiences">Experiences</a></li>
-            <li><a href="/#projects">Projects</a></li>
-            <li><a href="/camp-speaker-notes">Speaker Notes</a></li>
+            {/* <li><a href="/#projects">Projects</a></li> */}
           </ul>
         </section>
 
@@ -30,8 +29,7 @@ class Navigation extends Component {
                     <li><a href="/#intro" onClick={this.mobileMenu_hide}>About</a></li>
                     <li><a href="/#skills" onClick={this.mobileMenu_hide}>Skills</a></li>
                     <li><a href="/#experiences" onClick={this.mobileMenu_hide}>Experiences</a></li>
-                    <li><a href="/#projects" onClick={this.mobileMenu_hide}>Projects</a></li>
-                    <li><a href="/camp-speaker-notes" onClick={this.mobileMenu_hide}>Speaker Notes</a></li>
+                    {/* <li><a href="/#projects" onClick={this.mobileMenu_hide}>Projects</a></li> */}
                   </ul>
                 </div>
               </div>

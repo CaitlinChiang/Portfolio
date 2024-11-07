@@ -48,20 +48,42 @@
   font-size: 20px;
   padding: 10px 30px;
   margin-top: 20px;
-  background-color: var(--dark-navy);
-  border: 1px solid white;
-  border: 1px solid white;
   font-family: "Nunito", sans-serif;
   border-radius: 4px;
   margin-right: 50px;
 }
 
-.intro-contact-resume:hover {
-  background-color: white;
+.intro-contact-resume {
+  background-color: var(--slate);
+  color: black;
+  border: 1px solid white;
+}
+
+.intro-contact-resume > a {
   color: black;
 }
 
+.intro-contact-resume:hover {
+  background-color: var(--dark-navy);
+  border: 1px solid white;
+  color: white;
+}
+
 .intro-contact-resume:hover > a {
+  color: white;
+}
+
+.intro-contact-github {
+  background-color: var(--dark-navy);
+  border: 1px solid white;
+}
+
+.intro-contact-github:hover {
+  background-color: var(--slate);
+  color: black;
+}
+
+.intro-contact-github:hover > a {
   color: black;
 }
 

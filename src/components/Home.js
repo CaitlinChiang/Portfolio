@@ -18,7 +18,10 @@ class Home extends Component {
 
           <div className="intro-caption"><span className="emphasize-description">I'm obsessed with building software.</span> Currently a student in the Singapore University of Technology and Design, I'm pursuing a degree in computer science mixed in with design and artificial intelligence. I am <span className="emphasize-description">passionate</span> about <span className="emphasize-description">automating manual systems and crafting web-products</span> that serve immense value to the community.</div>
           <button className="intro-contact intro-contact-resume">
-            <a href={publicUrl + "/assets/Resume.pdf"} download="caitlin-resume">Download CV</a>
+            <a href={publicUrl + "/assets/Resume.pdf"} download="caitlin-resume">Download Resume</a>
+          </button>
+          <button className="intro-contact intro-contact-github">
+            <a href={"https://github.com/CaitlinChiang"} download="caitlin-resume">{'Visit My GitHub →'}</a>
           </button>
         </div>
       </div>

@@ -4,8 +4,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Skills from './components/Skills'
 import Experiences from './components/Experiences'
-import Projects from './components/Projects'
-import SpeakerNotes from './components/SpeakerNotes'
+// import Projects from './components/Projects'
 import './App.css'
 import './styles/Global.css'
 
@@ -22,10 +21,9 @@ function App() {
                 <Home />
                 <Skills />
                 <Experiences />
-                <Projects />
+                {/* <Projects /> */}
               </>
             } />
-            <Route path="/camp-speaker-notes" element={<SpeakerNotes />} />
           </Routes>
         </div>
       </div>
