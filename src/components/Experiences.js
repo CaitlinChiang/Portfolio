@@ -22,7 +22,7 @@ class Experiences extends Component {
   }
 
   componentDidMount() {
-    document.getElementById(7).style.display = "block";
+    document.getElementById(9).style.display = "block";
   }
 
   render() {
