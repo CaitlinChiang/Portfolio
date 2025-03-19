@@ -109,5 +109,14 @@ export const experiences = [
       'Developed scripts to aggregate and calculate data from multiple CSV files, combining them into summarized formats such as abatement curves and comprehensive master CSV files.',
       'Analyzed abatement curves to identify trends and draw insights into potential emission reduction impacts through investments in various technologies.'
     ]
+  },
+  {
+    company: 'Menyala | Singapore',
+    position: 'Software Engineer',
+    timeline: 'Jan 2025 - Present',
+    details: 'A venture capital backed by Temasek.',
+    description: [
+      'Developed a multi-agent pipeline that allows users to input queries, and view the results in various customizable formats.'
+    ]
   }
 ]

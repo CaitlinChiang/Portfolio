@@ -22,7 +22,7 @@ class Experiences extends Component {
   }
 
   componentDidMount() {
-    document.getElementById(9).style.display = "block";
+    document.getElementById(10).style.display = "block";
   }
 
   render() {
@@ -40,7 +40,8 @@ class Experiences extends Component {
         <div className="divider"/>
 
         <div class="tabs">
-          <button class="tablinks active" onClick={event => this.showExperience(event, 9)}>09</button>
+          <button class="tablinks active" onClick={event => this.showExperience(event, 10)}>10</button>
+          <button class="tablinks" onClick={event => this.showExperience(event, 9)}>09</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 8)}>08</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 7)}>07</button>
           <button class="tablinks" onClick={event => this.showExperience(event, 6)}>06</button>
