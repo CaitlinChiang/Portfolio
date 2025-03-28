@@ -91,7 +91,7 @@ export const experiences = [
   {
     company: 'Urban Redevelopment Authority (URA) | Singapore',
     position: 'Team Lead and Software Engineer',
-    timeline: 'Sept 2024 - Present',
+    timeline: 'Sept 2024 - Dec 2024',
     details: 'Academic Client Partnership | Public Engagement Platform',
     description: [
       'Led a team of four to develop a public engagement platform enabling interactive consumer journeys, empowering users to transform their ideas into AI-generated images.',
@@ -116,7 +116,9 @@ export const experiences = [
     timeline: 'Jan 2025 - Present',
     details: 'A venture capital backed by Temasek.',
     description: [
-      'Developed a multi-agent pipeline that allows users to input queries, and view the results in various customizable formats.'
+      'Developed a full-stack multi-agent pipeline application enabling users to input custom queries and dynamically view, edit, and store results in customizable formats.',
+      'Engineered a responsive frontend chat interface with editable tables, supporting custom header inputs and real-time data visualization for enhanced user interaction.',
+      'Built a modular backend server integrating multiple LLMs and prompt engineering.'
     ]
   }
 ]
