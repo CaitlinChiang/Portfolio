@@ -103,7 +103,7 @@ export const experiences = [
   {
     company: 'Moya | Singapore',
     position: 'Software Engineer',
-    timeline: 'Oct 2024 - Present',
+    timeline: 'Oct 2024 - May 2025',
     details: 'A startup focused on energy research and the impact of international collaborations on emissions reduction.',
     description: [
       'Developed scripts to aggregate and calculate data from multiple CSV files, combining them into summarized formats such as abatement curves and comprehensive master CSV files.',
@@ -113,12 +113,19 @@ export const experiences = [
   {
     company: 'Menyala | Singapore',
     position: 'Software Engineer',
-    timeline: 'Jan 2025 - Present',
+    timeline: 'Jan 2025 - April 2025',
     details: 'A venture capital backed by Temasek.',
     description: [
       'Developed a full-stack multi-agent pipeline application enabling users to input custom queries and dynamically view, edit, and store results in customizable formats.',
       'Engineered a responsive frontend chat interface with editable tables, supporting custom header inputs and real-time data visualization for enhanced user interaction.',
       'Built a modular backend server integrating multiple LLMs and prompt engineering.'
     ]
+  },
+  {
+    company: 'XWeave.io | Singapore',
+    position: 'Software Engineer',
+    timeline: 'May 2025 - Present',
+    details: 'A startup redefining cross-border payments with blockchain.',
+    description: []
   }
 ]

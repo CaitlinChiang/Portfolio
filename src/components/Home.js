@@ -16,7 +16,7 @@ class Home extends Component {
             <p>An AI and Full-Stack Software Engineer</p>
           </div>
 
-          <div className="intro-caption"><span className="emphasize-description">I'm obsessed with building software.</span> Currently a graduating senior in the Singapore University of Technology and Design, I'm pursuing a degree in Design and Artificial Intelligence, with minors in Computer Science and Digital Humanities. I am <span className="emphasize-description">passionate</span> about <span className="emphasize-description">automating manual systems and crafting web-products</span> that serve immense value to the community.</div>
+          <div className="intro-caption"><span className="emphasize-description">I'm obsessed with building software that transforms friction into flow.</span> From automating manual systems to architecting AI-powered products, I craft web experiences that bring real-world impact at scale.</div>
           <button className="intro-contact intro-contact-resume">
             <a href={publicUrl + "/assets/Resume.pdf"} download="caitlin-resume">Download Resume</a>
           </button>
