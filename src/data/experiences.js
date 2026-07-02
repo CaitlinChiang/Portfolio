@@ -2,130 +2,132 @@ export const experiences = [
   {
     position: 'Freelance Software Engineer | Philippines',
     timeline: 'Mar 2020 - Jun 2021',
-    details: 'Small Businesses: The Rolls Kitchen, The Busy Bee, Soren Apparel',
+    details: 'Clients: The Rolls Kitchen, The Busy Bee, Soren Apparel',
     description: [
-      'Collaborated with CEOs to design the website’s user interface, aligning with strategic goals.',
-      'Implemented e-commerce systems for both administrative and client-facing platforms.',
-      'Designed the database structure and developed the overall application architecture.',
-      'Conducted user experience research by engaging with users to refine and enhance the website.'
+      'Partnered directly with business owners and executives to translate business objectives into scalable web application solutions.',
+      'Designed and developed end-to-end e-commerce platforms spanning customer-facing experiences and administrative management systems.',
+      'Architected application databases and backend systems with a focus on maintainability, scalability, and long-term growth.'
     ]
   },
   {
     company: 'Dragonpay Corporation | Philippines',
-    position: 'Software Engineer',
-    timeline: 'Jul 2021',
-    details: 'Philippines’ first payment gateway to enable non-credit card holders to make payments through bank transfers.',
+    position: 'Freelance Software Engineer',
+    timeline: 'Jun 2021 - Jul 2021',
+    details: 'Leading Philippine payment gateway enabling digital payments across banks and payment channels.',
     description: [
-      'Developed and deployed an internal health tracking application to monitor employee wellness.',
-      'Launched an internal business expense tracking tool that streamlined the finance team’s workflow.'
+      'Developed and deployed an internal employee wellness platform, streamlining organizational health tracking and reporting.',
+      'Engineered an internal expense management application that automated financial workflows and improved operational efficiency for the finance team.'
     ]
   },
   {
     company: 'Philippine Red Cross | Philippines',
     position: 'Software Engineer',
     timeline: 'Jul 2021 - Oct 2021',
-    details: '',
+    details: 'Humanitarian organization providing emergency, healthcare, and disaster response services.',
     description: [
-      'Developed module-level testing scripts to ensure seamless software performance.'
+      'Developed automated module-level testing scripts to improve software reliability, maintainability, and deployment confidence.'
     ]
   },
   {
     company: 'Dashlabs.ai | Philippines',
     position: 'Software Engineer',
     timeline: 'Dec 2020 - Dec 2021',
-    details: 'Y-Combinator accelerated startup specializing in medical software tailored for the Philippine healthcare sector.',
+    details: 'Y-Combinator healthtech startup building clinical analytics and healthcare software solutions.',
     description: [
-      'Mentored and led a team of seven developers in building comprehensive patient data analytics.',
-      'Partnered with medical professionals and cross-functional teams (finance, sales) to design detailed data visualizations and analytics tools.',
-      'Launched 30+ features to streamline workflows for medical professionals.',
-      'Deployed 20+ visualizations, providing various insights to better understand patient data.',
-      'Designed data aggregations to produce insights with meaningful correlations.'
+      'Led and mentored a team of seven software engineers, providing technical leadership, architectural guidance, and code reviews for healthcare analytics solutions.',
+      'Collaborated with medical professionals and cross-functional stakeholders to translate complex clinical requirements into scalable analytical software.',
+      'Delivered over 30 production features that streamlined healthcare workflows and improved operational efficiency for medical professionals.',
+      'Engineered over 20 interactive analytics dashboards and architected data aggregation pipelines that transformed complex healthcare datasets into actionable insights and meaningful visualizations for medical professionals.'
     ]
   },
   {
     company: 'SUTD campusX | Singapore',
     position: 'Software Engineer',
     timeline: 'Jan 2023 - Dec 2023',
-    details: 'Initiative to create a human-centric cyber-physical learning environment using data analytics.',
+    details: 'University research initiative developing a human-centric cyber-physical learning environment.',
     description: [
-      'Collaborated with SUTD\'s faculty to design, develop, and deploy an AI-powered internal university software platform, with an aim to enhance student learning experiences.',
-      'Conceptualized and designed the application\'s student-centric interface.',
-      'Developed a dynamic, modular platform customized for specific course requirements.',
-      'Designed the database system and defined the overall application architecture.'
+      'Collaborated with university faculty and cross-functional stakeholders to architect and deliver an AI-powered learning platform enhancing educational workflows and student engagement.',
+      'Engineered a modular application framework configurable for multiple university courses.',
+      'Defined the application\'s system architecture and relational database design, emphasizing scalability, maintainability, and long-term extensibility.'
     ]
   },
   {
     company: 'Procter & Gamble (P&G) | Singapore',
     position: 'Technical Lead and Software Engineer',
     timeline: 'May 2023 - Aug 2023',
-    details: 'Academic Client Partnership | Data Analysis Platform',
+    details: 'Academic Client Partnership | Consumer Analytics & Data Visualization Platform',
     description: [
-      'Led a team of six to develop a data visualization web application for P&G’s R&D department, enhancing data-driven decision-making and insights into consumer behavior.',
-      'Implemented automated CSV file uploads, enabling the application to extract, process, and visualize data across customized formats.',
-      'Developed tools for researchers to compare data from various categories through timelines, graphs, and other interactive charts.',
-      'Designed features to visualize complete consumer journeys, enabling trend analysis.',
-      'Applied AI to analyze consumer-submitted photos, extracting hues and emotions to assess product impact and identify improvements, potential risks, and success indicators.'
+      'Led a team of six engineers to deliver a data visualization platform supporting consumer behavior analysis for P&G\'s R&D organization.',
+      'Engineered automated CSV ingestion and processing pipelines that transformed raw datasets into interactive analytical visualizations.',
+      'Developed interactive dashboards enabling researchers to compare multi-dimensional datasets through configurable timelines, charts, and visual analytics.',
+      'Designed consumer journey visualization features that uncovered behavioral trends and supported data-driven product decisions.',
+      'Integrated AI-powered image analysis techniques to extract visual attributes and emotional signals from consumer-submitted images, enabling deeper product evaluation and research insights.'
     ]
   },
   {
     company: 'Jublia | Singapore',
     position: 'Software Engineer',
     timeline: 'Aug 2023 - Dec 2023',
-    details: 'Events management company that enhances event engagement and networking through technology.',
+    details: 'Event technology company providing platforms for event management, networking, and attendee engagement.',
     description: [
-      'Conceptualized and redesigned a user-centric homepage dashboard for improved usability.',
-      'Refactored legacy codebase and converted key components into Vue.js dynamic modules.',
-      'Developed automation scripts for regular database storage integrity checks.'
+      'Redesigned a user-centric dashboard experience, improving usability and application navigation.',
+      'Modernized a legacy Vue.js application by refactoring reusable components into a modular, maintainable architecture that improved scalability.',
+      'Automated database integrity validation through scheduled monitoring scripts, improving operational reliability and reducing manual verification efforts.'
     ]
   },
   {
-    company: 'Development Bank of Singapore Limited (DBS) | Singapore',
+    company: 'Development Bank of Singapore (DBS) | Singapore',
     position: 'Team Lead and Software Engineer',
     timeline: 'Jan 2024 - May 2024',
-    details: 'Academic Client Partnership | Queue Simulation Dashboard',
+    details: 'Academic Client Partnership | Queue Simulation & Operational Planning Platform',
     description: [
-      'Led a team of five to develop a web-based visual simulation dashboard, enabling bank managers to model and analyze queue management scenarios with configurable parameters.',
-      'Designed the system architecture to ensure modularity and adaptability across branches.'
+      'Led a team of five engineers to develop a configurable web-based queue simulation platform supporting operational planning across banking branches.',
+      'Architected a scalable and modular system design that enabled flexible simulation scenarios and future platform extensibility.'
     ]
   },
   {
     company: 'Urban Redevelopment Authority (URA) | Singapore',
     position: 'Team Lead and Software Engineer',
     timeline: 'Sept 2024 - Dec 2024',
-    details: 'Academic Client Partnership | Public Engagement Platform',
+    details: 'Academic Client Partnership | AI-Powered Public Engagement Platform',
     description: [
-      'Led a team of four to develop a public engagement platform enabling interactive consumer journeys, empowering users to transform their ideas into AI-generated images.',
-      'Implemented advanced AI techniques, including inpainting and prompting, to enhance image generation capabilities.',
-      'Designed a dynamic, modular application framework, customizable by administrators to meet specific engagement requirements.',
-      'Translated application mockups into fully functional code, ensuring alignment with initial design and user experience goals.'
+      'Led a team of four engineers to architect and deliver an AI-powered public engagement platform that transformed user ideas into AI-generated visual concepts.',
+      'Integrated advanced generative AI techniques, including prompt engineering and image inpainting, to improve image quality and user experience.',
+      'Designed a configurable, modular application architecture enabling administrators to customize engagement workflows without code changes.',
+      'Translated UX designs into production-ready software while ensuring consistency between design specifications and implementation.'
     ]
   },
   {
     company: 'Moya | Singapore',
     position: 'Software Engineer',
-    timeline: 'Oct 2024 - May 2025',
-    details: 'A startup focused on energy research and the impact of international collaborations on emissions reduction.',
+    timeline: 'Oct 2024 - Mar 2025',
+    details: 'Climate technology startup developing data-driven solutions for emissions reduction and energy research.',
     description: [
-      'Developed scripts to aggregate and calculate data from multiple CSV files, combining them into summarized formats such as abatement curves and comprehensive master CSV files.',
-      'Analyzed abatement curves to identify trends and draw insights into potential emission reduction impacts through investments in various technologies.'
+      'Engineered automated data processing pipelines to aggregate, transform, and consolidate large CSV datasets into standardized analytical outputs and master datasets.',
+      'Designed reusable scripts to generate abatement curves and analytical datasets, improving data processing efficiency and consistency.'
     ]
   },
   {
-    company: 'Menyala | Singapore',
-    position: 'Software Engineer',
-    timeline: 'Jan 2025 - April 2025',
-    details: 'A venture capital backed by Temasek.',
+    company: 'Liminal | Singapore',
+    position: 'AI Software Engineer',
+    timeline: 'Jan 2025 - Apr 2025',
+    details: 'Temasek-backed venture capital.',
     description: [
-      'Developed a full-stack multi-agent pipeline application enabling users to input custom queries and dynamically view, edit, and store results in customizable formats.',
-      'Engineered a responsive frontend chat interface with editable tables, supporting custom header inputs and real-time data visualization for enhanced user interaction.',
-      'Built a modular backend server integrating multiple LLMs and prompt engineering.'
+      'Engineered a production-ready full-stack multi-agent AI platform enabling configurable workflows, dynamic query execution, and customizable result management.',
+      'Developed a responsive React-based chat interface featuring editable tables, configurable schemas, and real-time data visualization to improve user productivity.',
+      'Architected a modular backend platform integrating multiple LLM providers, prompt engineering strategies, and extensible AI workflows for scalable feature development.'
     ]
   },
   {
-    company: 'XWeave.io | Singapore',
+    company: 'Xweave.io | Singapore',
     position: 'Software Engineer',
     timeline: 'May 2025 - Present',
-    details: 'A startup redefining cross-border payments with blockchain.',
-    description: []
+    details: 'Fintech building blockchain-powered infrastructure for cross-border payments.',
+    description: [
+      'Architected and delivered secure integrations with multiple digital asset exchange providers, enabling scalable cross-border payment orchestration through standardized REST APIs.',
+      'Designed and productionized an event-driven webhook architecture to provide reliable, real-time transaction synchronization across distributed payment systems.',
+      'Architected and implemented a modular mid-market rate service using object-oriented design principles, enabling efficient retrieval, persistence, and synchronization of fiat and cryptocurrency exchange rates.',
+      'Led and mentored two software engineers through technical guidance, code reviews, and architectural discussions, improving engineering quality and delivery velocity.'
+    ]
   }
-]
+];
